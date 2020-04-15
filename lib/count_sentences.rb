@@ -17,7 +17,7 @@ self.end_with?("!")
   def count_sentences
 sentences = []
 sentences << self.split("/[!?.]/")
-sentences.delete_if{|sentence| 
+sentences.delete_if{|sentence| sentence.empty?
 
 sentences.count("".!?")
 
