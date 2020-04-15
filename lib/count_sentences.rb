@@ -18,6 +18,7 @@ self.end_with?("!")
 sentences = []
 sentences << self.split("/[!?.]/")
 
+
 sentences.count("".!?")
 
   end
